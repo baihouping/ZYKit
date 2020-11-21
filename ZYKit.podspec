@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYKit'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of ZYKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ ZYKit是一个强大的框架
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZYKit/Classes/**/*'
+  s.source_files = 'ZYKit/Classes/baseClass/*','ZYKit/Classes/untils/*'
   
   s.resource_bundles = {
      'ZYKit' => ['ZYKit/Assets/**/*.png']
@@ -38,5 +38,5 @@ ZYKit是一个强大的框架
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
