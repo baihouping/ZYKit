@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZYKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZYKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZYKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZYKit: f5e65e3c4a83a193084e68174e41a3bc3908de2f
+
+PODFILE CHECKSUM: 8bde47e8bd6212cf9537c6ac7835573520d66915
+
+COCOAPODS: 1.10.0.rc.1
