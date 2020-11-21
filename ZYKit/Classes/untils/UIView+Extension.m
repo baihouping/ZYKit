@@ -7,6 +7,7 @@
 //
 
 #import "UIView+Extension.h"
+#import "UIColor+Hex.h"
 
 @implementation UIView (Extension)
 - (void)setX:(CGFloat)x
