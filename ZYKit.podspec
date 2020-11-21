@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYKit'
-  s.version          = '0.2.7'
+  s.version          = '0.2.8'
   s.summary          = 'A short description of ZYKit.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ ZYKit是一个强大的框架
   # s.source_files = 'ZYKit/Classes/baseClass/*','ZYKit/Classes/untils/*'
   
   s.resource_bundles = {
-     'ZYKit' => ['ZYKit/Assets/**/*.png']
+     'ZYKit' => ['ZYKit/Assets/ZYKit.bundle']
    }
     s.subspec 'baseClass' do |st|
     st.source_files = "ZYKit/Classes/baseClass/*.{h,m}"
