@@ -33,7 +33,7 @@ ZYKit是一个强大的框架
   s.source_files = 'ZYKit/Classes/**/*'
   
   s.resource_bundles = {
-     'ZYKit' => ['ZYKit/Assets/*.png']
+     'ZYKit' => ['ZYKit/Assets/**/*.png']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
